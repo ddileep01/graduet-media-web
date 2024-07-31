@@ -9,7 +9,7 @@ const siteConfig = {
   logo: Logo,
   seo: {
     title: 'Saas UI',
-    description: 'The React component library for startups',
+    description: 'The next-gen creative partner for startups.',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -17,23 +17,23 @@ const siteConfig = {
     links: [
       {
         id: 'features',
-        label: 'Features',
+        label: 'Projects',
       },
       {
         id: 'pricing',
-        label: 'Pricing',
+        label: 'Services',
+      },
+      {
+        id: 'team',
+        label: 'Team',
       },
       {
         id: 'faq',
         label: 'FAQ',
       },
       {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
+        label: 'Book Now',
+        href: '/booknow',
         variant: 'primary',
       },
     ],
@@ -41,8 +41,8 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        Designed with ❤️ by{' '}
+        <Link href="/">Nexsavants</Link>
       </>
     ),
     links: [

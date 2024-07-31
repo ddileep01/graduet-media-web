@@ -97,15 +97,14 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Build Your Brand With
+                <Br /> The #1 Creative Media
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Transform your ideas into reality to get <Br />{" "}
+                <Em>impactful</Em> and <Em>unforgettable</Em> branding solutions.
               </FallInPlace>
             }
           >
@@ -115,8 +114,8 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                <ButtonLink colorScheme="primary" size="lg" href="/booknow">
+                  Book Now
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
@@ -135,7 +134,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
+                  View services
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -267,7 +266,7 @@ const HighlightsSection = () => {
         name="Renata Alink"
         description="Founder"
         avatar="/static/images/avatar.jpg"
-        gradient={["pink.200", "purple.500"]}
+        gradient={["pink.200", "red.500"]}
       >
         “Saas UI helped us set up a beautiful modern UI in no time. It saved us
         hundreds of hours in development time and allowed us to focus on
@@ -304,7 +303,7 @@ const HighlightsSection = () => {
             <Tag
               key={value}
               variant="subtle"
-              colorScheme="purple"
+              colorScheme="red"
               rounded="full"
               px="3"
             >
@@ -468,10 +467,10 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
+        title: "🏷️ Get upto 30% discount on our all services!",
         description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
+          '<img src="" />',
+        href: "",
         action: false,
       },
     },
