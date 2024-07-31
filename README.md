@@ -1,70 +1,60 @@
-# Saas UI - Next.js - landing page.
+# Graduet Media Web
 
-This is a free Next.js landing page template based on https://saas-ui.dev.
-Feel free to submit any feature requests. If you use this template please share what you've built [on Twitter](https://twitter.com/saas_js) 🚀.
+Welcome to the GitHub repository for the Graduet Media Web. Graduet Media is a graphic design and photography multimedia company, and this repository contains the code for their comprehensive online presence.
 
-**[View demo](https://saas-ui-nextjs-landing-page.netlify.app/)**
+## Project Overview
 
-## Tech
+This project encompasses the creation of a dynamic and user-friendly website for Graduet Media. The website provides various features, including:
 
-- Next.js
-- Chakra UI
-- Saas UI
-- Contentlayer
-- Typescript
+- **Service Booking**: A streamlined system for clients to book graphic design and photography services directly through the website.
+- **Portfolio**: A visually appealing and interactive showcase of Graduet Media's best work, including past projects and client testimonials.
+- **About Us**: Detailed information about Graduet Media, their mission, and their team.
+- **Contact**: Easy-to-use contact forms and information for potential clients to get in touch with Graduet Media.
+- **Blog**: A section for the latest updates, news, and articles related to graphic design, photography, and multimedia.
 
-## Features
+## Technologies Used
 
-- Feature blocks
-- Testimonials
-- Pricing tables
-- Log in and Sign up pages
-- FAQ
-
-## In progress
-
-- [ ] Supabase Auth
-- [ ] Waitlist sign-up with GetRevue
-- [ ] Blog (Contentlayer)
-- [ ] Docs
+- **Frontend**: Developed using modern web technologies including HTML5, CSS3, TypeScript, NextJS, Tailwind, Chakra UI and JavaScript. The frontend is responsive and optimized for all devices.
+- **Backend**: Built with Node.js and Express.js to handle server-side operations.
+- **Database**: MongoDB is used for storing user data, booking information, and portfolio details.
+- **Additional Tools**: Integration with various third-party APIs and services to enhance functionality.
 
 ## Getting Started
 
-First, clone this repo and run `pnpm i`
-
-To start the app run:
+To get started with the project, clone the repository and install the necessary dependencies:
 
 ```bash
-pnpm dev
+git clone https://github.com/your-username/graduet-media-web.git
+cd graduet-media-web
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Run the development server with:
 
-## Configuration
+```bash
+npm start
+```
 
-Configuration files to edit basic site information, add testimonials, faq and pricing table can be found in `/data`.
+The website will be accessible at `http://localhost:3000`.
 
-## Learn More
+## Contributions
 
-Find out more about Saas UI.
+We welcome contributions to improve the Graduet Media website. Please follow these steps to contribute:
 
-- [Saas UI Documentation](https://saas-ui.dev/docs/introduction).
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
 ## License
 
-MIT
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or further information, please contact Graduet Media through their [website](http://graduetmedia.com/contact) or email at info@graduetmedia.com.
+
+---
