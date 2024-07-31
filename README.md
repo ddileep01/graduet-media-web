@@ -34,7 +34,7 @@ npm install
 Run the development server with:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The website will be accessible at `http://localhost:3000`.
