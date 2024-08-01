@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import {
   Container,
+  useTheme,
   Box,
   Stack,
   HStack,
@@ -86,6 +87,8 @@ const Home: NextPage = () => {
 };
 
 const HeroSection: React.FC = () => {
+  const theme = useTheme();
+  console.log("theme.colors._primary::",theme.colors._primary);
   return (
     <Box position="relative" overflow="hidden">
       <BackgroundGradient height="100%" zIndex="-1" />
@@ -114,7 +117,7 @@ const HeroSection: React.FC = () => {
               </HStack> */}
 
               <ButtonGroup spacing={4} alignItems="center" pt={{ base: 8, lg: 10 }}>
-                <ButtonLink colorScheme="red" size="lg" href="/booknow">
+                <ButtonLink colorScheme={theme.colors._primary} size="lg" href="/booknow">
                   Book Now
                 </ButtonLink>
                 <ButtonLink

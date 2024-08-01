@@ -6,6 +6,11 @@ import { fontSizes } from './foundations/typography'
 
 import '@fontsource/inter/variable.css'
 
+const colors={
+  ...theme.colors,
+  _primary: '#8A1A19',
+  _secondary: '#d59091'
+}
 const styles = {
   global: (props: any) => ({
     body: {
@@ -26,9 +31,10 @@ export default extendTheme(
       initialColorMode: 'dark',
       useSystemColorMode: false,
     },
+    colors,
     styles,
     fontSizes,
     components,
   },
-  theme
+  // theme
 )
