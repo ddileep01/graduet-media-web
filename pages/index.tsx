@@ -88,9 +88,8 @@ const Home: NextPage = () => {
 
 const HeroSection: React.FC = () => {
   const theme = useTheme();
-  console.log("theme.colors._primary::",theme.colors._primary);
   return (
-    <Box position="relative" overflow="hidden">
+    <Box position="relative" overflow="hidden" fontFamily="'Figtree', sans-serif">
       <BackgroundGradient height="100%" zIndex="-1" />
       <Container maxW="container.xl" pt={{ base: 40, lg: 60 }} pb="40">
         <Stack direction={{ base: "column", lg: "row" }} alignItems="center">
@@ -99,9 +98,14 @@ const HeroSection: React.FC = () => {
             justifyContent="flex-start"
             px="0"
             title={
-              <FallInPlace>
-                Build Your Brand With
-                <Br /> The #1 Creative Media
+              <FallInPlace fontWeight="bold">
+                <Text display="inline" fontSize={32}>
+                  Build Your Brand With
+                </Text>
+                <Br />
+                <Text display="inline" fontSize={32}>
+                  The #1 Creative Media
+                </Text>
               </FallInPlace>
             }
             description={
@@ -117,10 +121,11 @@ const HeroSection: React.FC = () => {
               </HStack> */}
 
               <ButtonGroup spacing={4} alignItems="center" pt={{ base: 8, lg: 10 }}>
-                <ButtonLink colorScheme={theme.colors._primary} size="lg" href="/booknow">
+                <ButtonLink background="#ED8936" color="#ffffff" _hover={{background:"#DD6B20"}} size="lg" href="/booknow">
                   Book Now
                 </ButtonLink>
                 <ButtonLink
+                  _hover={{color:"#ED8936"}}
                   size="lg"
                   href="https://demo.saas-ui.dev"
                   variant="outline"

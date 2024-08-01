@@ -53,11 +53,11 @@ function NavLink({ href, children, isActive, ...rest }: NavLinkProps) {
       py="3"
       transition="0.2s all"
       fontWeight={isActive ? 'semibold' : 'medium'}
-      borderColor={isActive ? 'purple.400' : undefined}
+      borderColor={isActive ? 'red.400' : undefined}
       borderBottomWidth="1px"
       color={isActive ? 'white' : undefined}
       _hover={{
-        bg: isActive ? 'purple.500' : bgActiveHoverColor,
+        bg: isActive ? 'red.500' : bgActiveHoverColor,
       }}
       {...rest}
     >
@@ -129,7 +129,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
                     <CloseButton ref={closeBtnRef} onClick={onClose} />
                   </HStack>
                 </Flex>
-                <Stack alignItems="stretch" spacing="0">
+                <Stack alignItems="stretch" spacing="0" fontFamily="'Figtree', sans-serif">
                   {siteConfig.header.links.map(
                     ({ href, id, label, ...props }, i) => {
                       return (

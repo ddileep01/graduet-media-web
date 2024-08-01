@@ -8,7 +8,7 @@ import '@fontsource/inter/variable.css'
 
 const colors={
   ...theme.colors,
-  _primary: '#8A1A19',
+  _primary: '#7FFF00',
   _secondary: '#d59091'
 }
 const styles = {

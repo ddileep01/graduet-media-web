@@ -45,7 +45,7 @@ export const AnnouncementBanner: React.FC<AnnouncementBannerProps> = (
               bg="white"
               fontSize="sm"
               justifyContent="center"
-              colorScheme="red"
+              colorScheme="#ED8936"
               backgroundClip="padding-box"
               borderRadius="full"
               maxW="400px"
@@ -55,6 +55,7 @@ export const AnnouncementBanner: React.FC<AnnouncementBannerProps> = (
               py="4px"
               px="3"
               overflow="visible"
+              fontFamily="'Figtree', sans-serif"
               cursor="pointer"
               transition="all .2s ease-out"
               _dark={{ bg: "gray.900", borderColor: "transparent" }}
@@ -68,10 +69,10 @@ export const AnnouncementBanner: React.FC<AnnouncementBannerProps> = (
                 left: 0,
                 borderRadius: "inherit",
                 margin: "-2px",
-                bgGradient: "linear(to-r, red.300, red.400)",
+                bgGradient: "linear(to-r, orange.200, orange.400)",
                 transition: "background .2s ease-out",
                 _dark: {
-                  bgGradient: "linear(to-r, red.300, red.400)",
+                  bgGradient: "linear(to-r, orange.200, orange.400)",
                 },
               }}
               _hover={{
