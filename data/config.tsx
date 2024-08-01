@@ -41,7 +41,7 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Designed with ❤️ by{' '}
+        Made with ❤️ by{' '}
         <Link href="/">Nexsavants</Link>
       </>
     ),
