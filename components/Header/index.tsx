@@ -54,18 +54,18 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/gm-website-logo.svg"
                   alt="logo"
-                  width={140}
+                  width={70}
                   height={30}
-                  className="w-full dark:hidden"
+                  className="dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/gm-website-logo.svg"
                   alt="logo"
-                  width={140}
+                  width={70}
                   height={30}
-                  className="hidden w-full dark:block"
+                  className="hidden dark:block"
                 />
               </Link>
             </div>
@@ -162,9 +162,9 @@ const Header = () => {
                 >
                   Book Now
                 </Link>
-                <div>
+                {/* <div>
                   <ThemeToggler />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
