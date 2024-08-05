@@ -14,23 +14,22 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="images/logo/logo-2.svg"
+                    src="images/logo/gm-website-logo.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
+                    className="dark:hidden"
+                    width={70}
                     height={30}
                   />
                   <Image
-                    src="images/logo/logo.svg"
+                    src="images/logo/gm-website-logo.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
+                    className="hidden dark:block"
+                    width={70}
                     height={30}
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Next gen creative partners for startups and individuals.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -208,7 +207,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+              Copyright © 2024 Graduet Media All Rights Reserved | Made with ❤️ by <a href="/" rel="nofollow noopener">Nexsavants</a>
             </p>
           </div>
         </div>
