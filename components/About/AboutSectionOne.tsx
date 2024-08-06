@@ -53,8 +53,8 @@ const AboutSectionOne = () => {
   return (
     <section className="py-12 text-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-row justify-between mx-24 mb-12">
-          <div>
+        <div className="flex flex-col md:flex-row justify-between mx-6 md:mx-24 mb-12 space-y-6 md:space-y-0 md:space-x-6">
+          <div className="flex-shrink-0 flex flex-col items-center md:items-start">
             <div className="w-32 h-32 mb-4">
               <Image
                 src={teamMembers[0].image}
@@ -64,10 +64,14 @@ const AboutSectionOne = () => {
                 height={128}
               />
             </div>
-            <h2 className="text-xl font-bold">{teamMembers[0].name}</h2>
-            <p className=" mt-2 text-sm">{teamMembers[0].role}</p>
+            <h2 className="text-xl font-bold text-center md:text-left">
+              {teamMembers[0].name}
+            </h2>
+            <p className="mt-2 text-sm text-center md:text-left">
+              {teamMembers[0].role}
+            </p>
           </div>
-          <p className="mt-4 max-w-2xl">
+          <p className="mt-4 max-w-2xl text-center md:text-left">
             Brands struggle to establish a unique and captivating visual
             identity, restricting themselves from standing out in a crowded
             marketplace. At DZINR, we specialize in designing effective logos,
