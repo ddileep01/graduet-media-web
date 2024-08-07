@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -7,20 +8,23 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
       >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+        <div className="container mx-auto">
+          <div className="-mx-4 flex flex-wrap lg:flex-nowrap">
+            <div className="w-full lg:w-1/2 px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto max-w-[800px] text-center lg:text-left"
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Build Your Brand With<br/>The #1 Creative Agency
+                  Build Your Brand With
+                  <br />
+                  The #1 Creative Agency
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Transform your ideas into reality to get <br/><b>impactful</b> and <b>unforgettable</b> branding solutions
+                  Transform your ideas into reality to get <br />
+                  <b>impactful</b> and <b>unforgettable</b> branding solutions
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/startup"
                     className="rounded-md bg-[#A1E53B] py-4 px-8 text-base font-semibold text-[#000000] duration-300 ease-in-out hover:bg-[#65A310]"
@@ -31,13 +35,36 @@ const Hero = () => {
                     href="https://github.com/NextJSTemplates/startup-nextjs"
                     className="flex items-center rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
-                    View Services <span className="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="12" width="10.5" viewBox="0 0 448 512"><path fill="#ffffff" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></span>
+                    View Services{" "}
+                    <span className="ml-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="12"
+                        width="10.5"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          fill="#ffffff"
+                          d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                        />
+                      </svg>
+                    </span>
                   </Link>
                 </div>
               </div>
             </div>
+            <div className="relative w-[100vw] h-[50vh] md:w-[40vw] md:h-[50vh] mt-12 md:mt-0 rounded-xl overflow-hidden">
+              <Image
+                src="/images/graduet-media-promo-gif.gif"
+                alt="Promo GIF"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-xl"
+              />
+            </div>
           </div>
         </div>
+
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           {/* <svg
             width="450"
