@@ -1,6 +1,6 @@
-import { Blog } from "@/types/blog";
+import { Project } from "@/types/project";
 
-const blogData: Blog[] = [
+const ProjectData: Project[] = [
   {
     id: 1,
     title: "Best UI components for modern websites",
@@ -50,4 +50,5 @@ const blogData: Blog[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
   },
 ];
-export default blogData;
+
+export default ProjectData;
